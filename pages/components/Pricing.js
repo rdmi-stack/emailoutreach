@@ -28,10 +28,10 @@ const Pricing = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white shadow-lg rounded-lg p-8 text-center transition-transform transform hover:scale-105">
+          <div className="bg-white shadow-lg rounded-lg p-8 text-center transition-transform transform hover:scale-105 md:w-10/12 mx-auto">
             <h3 className="text-2xl font-semibold mb-4">Basic Plan</h3>
-            <p className="text-gray-600 mb-4">
-              {billingCycle === 'monthly' ? '$19/month' : '$190/year'}
+            <p className="text-gray-800 text-3xl font-bold mb-4">
+              {billingCycle === 'monthly' ? '$39/month' : '$290/year'}
             </p>
             <ul className="text-gray-600 mb-8">
               <li className="mb-2">100 Emails</li>
@@ -42,11 +42,11 @@ const Pricing = () => {
               Choose Plan
             </button>
           </div>
-          <div className="bg-white shadow-lg rounded-lg p-8 text-center relative transition-transform transform hover:scale-105">
+          <div className="bg-white shadow-lg rounded-lg p-8 text-center relative transition-transform transform hover:scale-105 md:w-10/12 mx-auto">
             <div className="absolute top-0 right-0 mt-2 mr-2 bg-blue-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Most Popular</div>
             <h3 className="text-2xl font-semibold mb-4">Pro Plan</h3>
-            <p className="text-gray-600 mb-4">
-              {billingCycle === 'monthly' ? '$49/month' : '$490/year'}
+            <p className="text-gray-800 text-3xl font-bold mb-4">
+              {billingCycle === 'monthly' ? '$99/month' : '$990/year'}
             </p>
             <ul className="text-gray-600 mb-8">
               <li className="mb-2">500 Emails</li>
@@ -57,10 +57,10 @@ const Pricing = () => {
               Choose Plan
             </button>
           </div>
-          <div className="bg-white shadow-lg rounded-lg p-8 text-center transition-transform transform hover:scale-105">
+          <div className="bg-white shadow-lg rounded-lg p-8 text-center transition-transform transform hover:scale-105 md:w-10/12 mx-auto">
             <h3 className="text-2xl font-semibold mb-4">Enterprise Plan</h3>
-            <p className="text-gray-600 mb-4">
-              {billingCycle === 'monthly' ? '$99/month' : '$990/year'}
+            <p className="text-gray-800 text-3xl font-bold mb-4">
+              {billingCycle === 'monthly' ? '$199/month' : '$1990/year'}
             </p>
             <ul className="text-gray-600 mb-8">
               <li className="mb-2">Unlimited Emails</li>
